@@ -1,0 +1,35 @@
+<div class="wrapperGame" ng-controller="ViewGameCtrl">
+
+    <div class="wrapperTime" ng-controller="timerController">
+        <h5>{{timer}}</h5>
+    </div>
+
+    <div class="wrapperCard" ng-controller="questionController">
+        <div class="quest">
+            <p>{{cities[currentQuestionId].desc}}</p>
+        </div>
+
+        <br>
+
+        <div class="image">
+            <img src={{cities[currentQuestionId].img}} alt="There must be a picture" width="50%" height="50%" id="picture">
+        </div>
+
+        <br>
+
+        <div class="buttons-wrapper">
+            <div class="button-padding" ng-repeat="button in questions[currentQuestionId].buttons">
+                <input type="button" ng-click="nextQuestion(button.isTrue)" value={{button.value}} class="but">
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapperScore" ng-controller="questionController">
+        <div class="fail">
+            <p>Количество ошибок: {{fail}}</p>
+        </div>
+        <div class="score">
+            <p>Набрано очков: {{score}}</p>
+        </div>
+    </div>
+</div>

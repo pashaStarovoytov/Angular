@@ -1,0 +1,64 @@
+{
+    "cities": [
+        {
+            "id": 1,
+            "name": "Витебск",
+            "desc": "Город на севере Беларуси?",
+            "img": "http://www.vitartur.biz/upload/userfiles/images/0077a79928db50f02835a47160403834.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Минск",
+            "desc": "Столица Беларуси?",
+            "img": "http://мир-туризма.com/upload/000/u4/139/4d399e2d.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Брест",
+            "desc": "Город-герой?",
+            "img": "http://1maps.ru/wp-content/uploads/2016/08/DSC_6830.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Москва",
+            "desc": "Столица России?",
+            "img": "http://mos.news/upload/resize_cache/iblock/72e/300_0_1/72e7b7e5a1554f9fae8c574b1fd022ec.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Амстердам",
+            "desc": "Самый известный город травокуров?",
+            "img": "http://howtrip.ru/wp-content/uploads/2016/06/410.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Париж",
+            "desc": "Столица Франции?",
+            "img": "https://wallperz.com/wp-content/uploads/2016/08/31/9315479.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Рим",
+            "desc": "Столица Италии?",
+            "img": "http://khimki-travels.ru/wp-content/uploads/2016/06/Italiya9084.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Осло",
+            "desc": "Столица Норвегии?",
+            "img": "http://venagid.ru/wp-content/uploads/2016/07/oslo.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Стокгольм",
+            "desc": "Столица Швеции?",
+            "img": "http://tcc.com.ua/storage/gallery/images/hotels/dd4/dd4ba926db49fa0f9690cce6f21a5b15.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Варшава",
+            "desc": "Столица Польши?",
+            "img": "http://www.warsawtour.pl/sites/default/files/centrum_i_pkin_fot._z_archiwum_warszawskiej_organizacji_turystycznej.jpg"
+        }
+    ]
+}
